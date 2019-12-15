@@ -1,0 +1,88 @@
+*{
+	font-family: 'Karla', sans-serif;
+}
+.landing-div{
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	padding: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #E74C3C;
+	text-align: center;
+}
+.landing-header{
+	color: white;
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+	font-size: 3.5em;
+}
+.landing-sub{
+	position: relative;
+	transform: translateY(-52%);
+	top: 52%;
+	font-size: 2em;
+	color:white;
+}
+.main-div{
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	background-color: white;
+	text-align: center;
+}
+.nav{
+	position: absolute;
+	top:5%!important;
+}
+.nav li a{
+	font-size: 20px;
+	color:white!important;
+}
+.about-head{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	color: white;
+}
+.grid{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center!important;
+}
+.item{
+	height: 300px;
+	width: 300px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .nav li a{
+		font-size: 15px;
+	}
+}
+.profile-img{
+	width:70%;
+	height: auto;
+	object-fit: cover;
+	margin-top: 50px;
+	border:2px solid #E74C3C;
+}
+.profile-name{
+	margin-top: 15px;
+	color:#E74C3C;
+}
+.txt{
+	color:white;
+}
